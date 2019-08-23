@@ -93,23 +93,19 @@ console.log(contactInfo);
 /* Request 3: Find out how many universities have the string "Uni" included in their name.
  Create a new array called unisWithUni that 
 contains them all. This will be an array of objects. Log the result. */
-// const unisWithUni = [];
-// for(uniName of graduates){
-//   if(uniName === "Salem University"){unisWithUni.push(uniName)}
+const unisWithUni = [];
+for(contains of graduates){
+  if(contains.university.includes('Uni')) {unisWithUni.push(contains)} 
+}
+
+
+// Using as ref
+// const lowPopulationAnimals = [];
+// for (amount of zooAnimals){
+//   if( amount.population < 5){lowPopulationAnimals.push(`${amount.animal_name} has a population under 5.`)}
 // }
-
-
-
-// graduates.filter( (uni) => uni.university === 'University');
-
-
-// function filterUni(arr, query){
-//   return arr.filter(function(el){
-//     return .indexOf(query.toLowerCase()) !== -1;
-//   })
-// }
-
-// console.log(unisWithUni);
+// console.log(lowPopulationAnimals);
+console.log(unisWithUni);
 
 
 // ==== ADVANCED Array Methods ====
