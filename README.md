@@ -28,15 +28,30 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
 
-1. Describe the biggest difference between `.forEach` & `.map`.
+###1. Describe the biggest difference between `.forEach` & `.map`.
 
-2. What is the difference between a function and a method?
+ ## The biggest difference between forEach and map is that map will populate a new array for you automatically. With forEach you would have to use push or another method to push your values into a new array.
 
-3. What is closure?
+###2. What is the difference between a function and a method?
 
-4. Describe the four rules of the 'this' keyword.
+## In Javascript functions are prolific and a ton of what you're going to do is function manipulation allowing you to run code for different effects. there are a few different scopes while most functions have "block scope" and a method is a function within the "block" of an object. 
 
-5. Why do we need super() in an extended class?
+###3. What is closure?
+
+## Closure is the scope of a function in a sense. It's the rule that states that functions can reach out of themselves to find defined variables/functions to run the code written in them. But they can not reach inside to execute code. If I had a parent function with a child and grandchild function nested within my Grandchild would inherit the attributes of of the parent and child but the parent would not beable to access the grandchild's attributes.
+
+
+###4. Describe the four rules of the 'this' keyword.
+
+## The 'this' keyword is dictated by it's binding: window binding: this will interact with the global scope/window. You can prevent this by using strict. 
+## implicit binding: This binding is when you are directing 'this' to a certain element. attributes.this
+## new binding: Is used in constructors when you want to create an object that you can use to build now object easily. 
+## explicit binding: This is how 'this' is bound when you are using the method that Javascript has for this like apply() call() bind() etc. 
+
+###5. Why do we need super() in an extended class?
+
+## The super in an extended class allows the class to inherit the properties of the class it is extending. Parent ---> child(super)
+
 
 ## Project Set up
 
