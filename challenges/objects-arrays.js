@@ -156,7 +156,7 @@ The zoos are concerned about animals with a lower population count.
 */
 const lowPopulationAnimals = [];
 for (amount of zooAnimals){
-  if( amount.population < 5){lowPopulationAnimals.push(`${amount.animal_name} has a population under 5.`)}
+  if( amount.population < 5){lowPopulationAnimals.push(amount)}
 }
 console.log(lowPopulationAnimals);
 
