@@ -99,12 +99,6 @@ for(contains of graduates){
 }
 
 
-// Using as ref
-// const lowPopulationAnimals = [];
-// for (amount of zooAnimals){
-//   if( amount.population < 5){lowPopulationAnimals.push(`${amount.animal_name} has a population under 5.`)}
-// }
-// console.log(lowPopulationAnimals);
 console.log(unisWithUni);
 
 
